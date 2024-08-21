@@ -1,0 +1,53 @@
+
+
+   .container {
+    width: 80%;
+    margin: auto;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .lrow {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .lrow:last-child {
+    margin-right: 0;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+  }
+button{
+    margin-left: 600px;
+    width: 80px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+}  
+form{
+    border: 1px solid;
+    padding: 10px;
+    background-color:gray;
+}
+body{
+    background-color: bisque;
+}
